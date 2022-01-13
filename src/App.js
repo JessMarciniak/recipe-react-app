@@ -12,7 +12,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          What do you have on hand?
+          <p>
+            {" "}
+            Use this app to help you find a recipe for dinner based on available
+            ingredients!
+          </p>
         </a>
       </header>
     </div>
