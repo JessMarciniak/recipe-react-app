@@ -1,4 +1,5 @@
 import React from "react";
+import RecipeResults from "./RecipeResults";
 import "./App.css";
 
 function App() {
@@ -6,18 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>What's for dinner?</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>
-            {" "}
-            Use this app to help you find a recipe for dinner based on available
-            ingredients!
-          </p>
-        </a>
+        <p>
+          {" "}
+          Use this app to help you find a recipe for dinner based on available
+          ingredients!
+        </p>
+        <RecipeResults defaultIngredient="apple,pork" />
       </header>
     </div>
   );
