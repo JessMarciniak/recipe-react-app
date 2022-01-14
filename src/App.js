@@ -1,5 +1,5 @@
 import React from "react";
-import RecipeResults from "./RecipeResults";
+import RecipeFinder from "./RecipeFinder";
 import "./App.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
           Use this app to help you find a recipe for dinner based on available
           ingredients!
         </p>
-        <RecipeResults defaultIngredient="apple,pork" />
+        <RecipeFinder />
       </header>
     </div>
   );
